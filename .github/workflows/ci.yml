@@ -3,7 +3,7 @@ name: Practical-Exercise-QA
 on: [push]
 
 jobs:
-  Pretier-run:
+  Prettier-run:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
