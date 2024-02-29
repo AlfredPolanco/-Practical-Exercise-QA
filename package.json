@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "tests": "npx cypress run",
+    "tests": "npx cypress run --browser chrome",
     "format": "prettier --write 'cypress/**/*.js'",
     "check-format": "prettier --check 'cypress/**/*.js'"
   },
