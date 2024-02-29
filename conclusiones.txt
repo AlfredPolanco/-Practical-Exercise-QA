@@ -1,0 +1,16 @@
+## Conclusiones sobre DemoBlaze API & E2E
+
+Mientras estuve haciendo las pruebas de API de DemoBlaze note lo siguiente
+
+- Los requests fallidos retornaban un 200 OK
+- El response body de los requests retornaba vacio
+- Al hacer Sign up el aplicativo no retorna ningun token
+
+
+Mientras estuve haciendo las pruebas de E2E de DemoBlaze note lo siguiente
+
+- No existe un feature de hacer Logout
+- El usuario no puede percatarse si ya Inicio Sesion ya que los botones
+de Login & Sign Up persisten ya con la sesion iniciada
+- La interfaz de usuario esta a medias, al añadir un item solo sale una 
+alerta en el navegador
